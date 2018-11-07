@@ -40,15 +40,5 @@ var min = Math.min.apply(null, array);
 console.log(min);
 
 
-/*Zadanie nr 3*/
 
 
-function myFunction() {
-    var nrPesel = prompt("Podaj swój numer PESEL", "PESEL");
-if (nrPesel !== null && nrPesel.length === 11) {
-    alert("Dziękujemy twój numer PESEL to:  " + nrPesel)
-
-} else {
-    alert('podany pesel nie ma 11 znaków')
-}
-}
